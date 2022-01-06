@@ -7,7 +7,7 @@ INSERT INTO public.baralho(id_codigo, descricao, titulo)
 INSERT INTO public.categoria_de_carta(
 	id,nome)
 	VALUES ('fd7b6723-77e2-4846-bd22-88df15ca150a','visual') ON CONFLICT(id) DO NOTHING;
-	
+
 INSERT INTO public.tipo_carta(
 	id, bonus, nome)
 	VALUES ('fd7b6723-77e2-4846-bd22-88df15ca150a', 'true', 'pessoa') ON CONFLICT(id) DO NOTHING;
